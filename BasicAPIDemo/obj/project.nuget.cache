@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y55HgckqDIuRzwacZcmS8k+yr6kpwm1/wKqxF4hWmG6TdCAoqOHfeFnJbytHbvbzLbRL5zQySxryZrMh6ZlXGA==",
+  "dgSpecHash": "weZ4yX8ESKhM+uWSminC9RdEveze/xbwM+Ja/jkfcLBUdFv25+eQ5Bd0hBKNRy0DSxJLuZJxthA990s4uKxuxQ==",
   "success": true,
-  "projectFilePath": "D:\\NEAProjects\\BasicAPIDemo\\BasicAPIDemo.csproj",
+  "projectFilePath": "D:\\NEAProjects\\DemoAPI\\BasicAPIDemo\\BasicAPIDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Allan\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Allan\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

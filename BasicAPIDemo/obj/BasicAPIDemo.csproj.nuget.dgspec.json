@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NEAProjects\\BasicAPIDemo\\BasicAPIDemo.csproj": {}
+    "D:\\NEAProjects\\DemoAPI\\BasicAPIDemo\\BasicAPIDemo.csproj": {}
   },
   "projects": {
-    "D:\\NEAProjects\\BasicAPIDemo\\BasicAPIDemo.csproj": {
+    "D:\\NEAProjects\\DemoAPI\\BasicAPIDemo\\BasicAPIDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NEAProjects\\BasicAPIDemo\\BasicAPIDemo.csproj",
+        "projectUniqueName": "D:\\NEAProjects\\DemoAPI\\BasicAPIDemo\\BasicAPIDemo.csproj",
         "projectName": "BasicAPIDemo",
-        "projectPath": "D:\\NEAProjects\\BasicAPIDemo\\BasicAPIDemo.csproj",
+        "projectPath": "D:\\NEAProjects\\DemoAPI\\BasicAPIDemo\\BasicAPIDemo.csproj",
         "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
-        "outputPath": "D:\\NEAProjects\\BasicAPIDemo\\obj\\",
+        "outputPath": "D:\\NEAProjects\\DemoAPI\\BasicAPIDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
