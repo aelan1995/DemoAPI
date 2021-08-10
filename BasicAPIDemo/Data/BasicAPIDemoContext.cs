@@ -15,5 +15,7 @@ namespace BasicAPIDemo.Data
         }
 
         public DbSet<BasicAPIDemo.Models.Employee> Employee { get; set; }
+
+        public DbSet<BasicAPIDemo.Models.PublicHoliday> PublicHoliday { get; set; }
     }
 }

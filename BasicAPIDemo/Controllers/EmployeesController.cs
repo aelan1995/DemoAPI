@@ -25,6 +25,17 @@ namespace BasicAPIDemo.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Employee>>> GetEmployee()
         {
+            var req = Request;
+            var reqheader = req.Headers;
+            var tempAuthKey = Microsoft.Extensions.Primitives.StringValues.Empty;
+            if (reqheader.ContainsKey("apikey"))
+            {
+                var authkey = reqheader.TryGetValue("apikey", out tempAuthKey).ToString();
+                if (authkey == "True")
+                {
+                    var decodedstr = System.Convert.FromBase64String(tempAuthKey);
+                }
+            }
             List<Employee> employee = new List<Employee>();
             employee = _context.Employee.ToList();
             //LINQ to EF
@@ -88,6 +99,7 @@ namespace BasicAPIDemo.Controllers
         [HttpPost]
         public async Task<ActionResult<Employee>> PostEmployee(Employee employee)
         {
+
             _context.Employee.Add(employee);
             try
             {
